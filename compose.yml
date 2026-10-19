@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: bharadwahbhanu/project1:db
+    image: bharadwajbhanu/project2:db
     ports:
       - "3306:3306"
     deploy:
@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: bharadwahbhanu/project1:app
+    image: bharadwajbhanu/project2:app
     ports:
       - "1111:8080"
     deploy:
